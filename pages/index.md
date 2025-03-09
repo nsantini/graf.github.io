@@ -4,5 +4,8 @@
 
 layout: Post
 permalink: /
-title: Jekyll Garden
+title: The Graf
 ---
+{% assign note_items = site.notes | sort: "date" | reverse %}
+{% assign content = note_items[0].content %}
+{%- include Content.html -%}
