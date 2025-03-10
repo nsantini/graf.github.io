@@ -3,7 +3,7 @@ title: Experimenting with DeepSeek R1 Locally
 date: 2025-01-31 13:38 +1300
 ---
 
-After reading a few posts, in particular [Simon Willison’s DeepSeek-R1 and exploring DeepSeek-R1-Distill-Llama-8B](https://simonwillison.net/2025/Jan/20/deepseek-r1/), I took the plunge to install and run DeepSeek R1 on my local machine.
+After reading a few posts, in particular [Simon Willison's DeepSeek-R1 and exploring DeepSeek-R1-Distill-Llama-8B](https://simonwillison.net/2025/Jan/20/deepseek-r1/), I took the plunge to install and run DeepSeek R1 on my local machine.
 
 Following instructions from Simon's post and [How to Use DeepSeek R1 in Visual Studio Code with Cline](https://apidog.com/blog/free-deepseek-r1-vscode-cline/), I managed to get everything running this way on my terminal:
 

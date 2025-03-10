@@ -8,4 +8,5 @@ title: The Graf
 ---
 {% assign note_items = site.notes | sort: "date" | reverse %}
 {% assign content = note_items[0].content %}
+{% assign title = note_items[0].title %}
 {%- include Content.html -%}
