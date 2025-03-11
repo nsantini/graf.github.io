@@ -5,3 +5,5 @@ pages/tags.md
 _notes/.obsidian
 _posts/.obsidian
 _notes/Public/.obsidian
+.obsidian
+.DS_Store
