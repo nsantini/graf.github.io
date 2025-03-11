@@ -31,7 +31,7 @@ heading: Nico's blog # Change this
 content: Paragraph blogging
 copyright:
   year: © 2025
-  msg: Contents under CC-BY-NC
+  msg: Nicolas Santini
 
 # Set title and content for private & broken link tooltop
 privatelinks:
@@ -69,6 +69,9 @@ collections:
   notes:
     output: true
     permalink: /graf/:title
+  posts:
+    output: true
+    permalink: /post/:title
 
 sass:
   style: compressed

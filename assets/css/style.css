@@ -78,6 +78,7 @@ html[data-theme="dark"] {
     font-weight: var(--text-weight-normal);
     line-height: var(--text-leading-narrow);
     padding-bottom: 0;
+    margin-bottom: 10px;
 }
 
 h1 {
