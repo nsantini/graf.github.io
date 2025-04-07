@@ -19,11 +19,11 @@
 # in the templates via {{ site.myvariable }}.
 
 # URL is the base hostname with protocol for your site, eg http://example.com
-url: 'https://blog.santini.nz' # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://blog.santini.nz" # the base hostname & protocol for your site, e.g. http://example.com
 
 # If you want to install this jekyll in a subpath (eg /digitalgarden) set it here.
 # Else keep it Empty (DON'T PUT /; Keep it empty)
-baseurl: ''
+baseurl: ""
 
 # Website Header, Description, Footer year and text.
 # If you are deleting this, make sure you remove it from HTML files too
@@ -68,7 +68,7 @@ plugins:
 collections:
   notes:
     output: true
-    permalink: /graf/:title
+    permalink: /note/:title
   posts:
     output: true
     permalink: /post/:title
@@ -78,18 +78,19 @@ sass:
 
 defaults:
   - scope:
-      path: ''
+      path: ""
       type: posts
     values:
       layout: Post
       permalink: /post/:title
       content-type: post
   - scope:
-      path: ''
+      path: ""
       type: notes
     values:
       layout: Post
       content-type: notes
+      feed: show
 
 # Exclude from processing.
 # The following items will not be processed, by default.

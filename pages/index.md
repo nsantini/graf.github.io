@@ -4,7 +4,7 @@
 
 layout: Post
 permalink: /
-title: The Graf
+title: Last Thought
 ---
 {% assign note_items = site.notes | sort: "date" | reverse %}
 {% assign content = note_items[0].content %}
